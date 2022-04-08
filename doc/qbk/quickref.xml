@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE library PUBLIC "-//Boost//DTD BoostBook XML V1.0//EN" "../../../../tools/boostbook/dtd/boostbook.dtd">
+
+<!--
+  Copyright (c) 2019 Vinnie Falco (vinnie.falco@gmail.com)
+  Copyright (c) 2022 Alan de Freitas (alandefreitas@gmail.com)
+
+  Distributed under the Boost Software License, Version 1.0. (See accompanying
+  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+
+  Official repository: https://github.com/alandefreitas/socks_io
+-->
+
+<informaltable frame="all">
+  <tgroup cols="4">
+    <colspec colname="a"/><colspec colname="b"/><colspec colname="c"/><colspec colname="d"/>
+    <thead><row>
+      <entry valign="center" namest="a" nameend="d">
+        <bridgehead renderas="sect2">Socks</bridgehead>
+      </entry>
+    </row></thead>
+    <tbody><row>
+      <entry valign="top">
+        <bridgehead renderas="sect3">Classes</bridgehead>
+        <simplelist type="vert" columns="1">
+        </simplelist>
+        <bridgehead renderas="sect3">Type Traits</bridgehead>
+        <simplelist type="vert" columns="1">
+        </simplelist>
+      </entry>
+     
+      <entry valign="top">
+        <bridgehead renderas="sect3">Functions</bridgehead>
+        <simplelist type="vert" columns="1">
+          <member><link linkend="socks_io.ref.boost__socks_io__to_status">to_status</link></member>
+          <member><link linkend="socks_io.ref.boost__socks_io__to_string">to_string</link></member>
+        </simplelist>
+      </entry>
+
+      <entry valign="top">
+        <bridgehead renderas="sect3">Constants</bridgehead>
+        <simplelist type="vert" columns="1">
+          <member><link linkend="socks_io.ref.boost__socks_io__status">status</link></member>
+          <member><link linkend="socks_io.ref.boost__socks_io__version">version</link></member>
+        </simplelist>
+      </entry>
+
+      <entry valign="top">
+        <bridgehead renderas="sect3">Operators</bridgehead>
+        <simplelist type="vert" columns="1">
+          <member><link linkend="socks_io.ref.boost__socks_io__operator_lt__lt_">operator&lt;&lt;</link></member>
+        </simplelist>
+        <bridgehead renderas="sect3">Aliases</bridgehead>
+        <simplelist type="vert" columns="1">
+          <member><link linkend="socks_io.ref.boost__socks_io__byte">byte</link></member>
+          <member><link linkend="socks_io.ref.boost__socks_io__error_category">error_category</link></member>
+          <member><link linkend="socks_io.ref.boost__socks_io__error_code">error_code</link></member>
+          <member><link linkend="socks_io.ref.boost__socks_io__error_condition">error_condition</link></member>
+          <member><link linkend="socks_io.ref.boost__socks_io__string_view">string_view</link></member>
+          <member><link linkend="socks_io.ref.boost__socks_io__system_error">system_error</link></member>
+        </simplelist>
+      </entry>
+
+    </row></tbody>
+  </tgroup>
+</informaltable>

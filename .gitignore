@@ -1,0 +1,19 @@
+/bin
+/bin64
+/_build*
+/cmake-build*
+temp
+
+# Emacs
+*#
+
+# Vim
+*~
+
+# Visual Studio
+/.vs
+/out
+
+# Visual Studio Code
+/.vscode
+/.idea
